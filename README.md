@@ -36,20 +36,21 @@ Everything below is rebuilt from the result files by [`scripts/build_summary.py`
 
 **ML versus DL baselines.** The DL baselines (LSTM, GRU, TCN, Transformer) were produced by a separate pipeline and are included as result files only. Mean F1 over the four datasets: GRU 0.890, Transformer 0.881, best ML (logistic regression) 0.878.
 
-## Read this before using a number
+## Scope of this repository
 
-The robustness and statistics results have problems that change what they can support. The details are in [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md). In short:
+The saved results are reported as they are. Four things to keep in mind when quoting them; details in [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md):
 
-- **ML robustness was run on centralised models only.** There is no ML node-dropout experiment and no ML replicated-centralised baseline, so the study does not yet test the claim that distribution makes the ML models more robust. The node-dropout numbers in `results/master/` belong to the DL baselines.
-- **The ML perturbations collapse the models** (clean F1 0.867; Gaussian noise about 0.13 at every level) because they are applied to the 342-column engineered matrix. The DL baselines kept F1 0.69 to 0.81 under the same names. The two are not comparable and the ML noise result is probably an implementation artefact.
-- **The "five seeds" are not five independent runs.** The split is fixed, so logistic regression, SVM, XGBoost and LightGBM return the same F1 every seed (std 0). Only random forest and CatBoost vary.
-- **The statistical tests have four datasets as their units.** The smallest possible Wilcoxon p-value is 0.125, and the rank table includes a meaningless "Other" entry.
-- **Notebook 03 (centralised baselines) is missing.** Its outputs, configuration and results are here; the notebook file was empty.
+- **ML node dropout and a replicated-centralised baseline are not among the files here.** The node-dropout rows in `results/master/` come from the DL baselines, and the notebooks for any further ML experiments are not in this repository.
+- **Perturbation results are as saved.** Notebook 05 applies the perturbations to the 342-column feature matrix; the ML models drop from a clean F1 of 0.867 to about 0.13 under Gaussian noise at every level. The DL baselines used their own perturbation code, so the two sets are not directly comparable.
+- **Seeds and split.** The engine split is fixed, so logistic regression, SVM, XGBoost and LightGBM give identical F1 across the five seeds (std 0); only random forest and CatBoost vary.
+- **Statistics.** The Friedman and Wilcoxon tests use the four datasets as units, so the smallest possible Wilcoxon p-value is 0.125.
+
+Notebook 03 (centralised baselines) is not included; its configuration, summary and results are.
 
 ## Repository layout
 
 ```
-notebooks/        01, 02, 04 to 08 (outputs kept); 03 is missing, see docs/PIPELINE.md
+notebooks/        01, 02, 04 to 08 (outputs kept); 03 is not included, see docs/PIPELINE.md
 config/           split, sensor, feature and run configuration for every notebook
 results/
   by_notebook/    result CSVs of notebooks 03 to 07 (ML pipeline)

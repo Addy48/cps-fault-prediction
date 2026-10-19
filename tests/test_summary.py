@@ -36,7 +36,7 @@ def test_distributed_is_below_centralised_lightgbm():
     assert (table["Gap"].astype(float) < 0).all()
 
 
-def test_ml_robustness_collapse_is_recorded():
+def test_ml_gaussian_noise_result_as_saved():
     rob = pd.read_csv(RES / "by_notebook/nb05_robustness/robustness_results.csv")
     noise = rob[rob.perturbation_type == "gaussian_noise"].f1.mean()
     assert 0.12 < noise < 0.14

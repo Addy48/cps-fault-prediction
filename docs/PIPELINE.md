@@ -6,7 +6,7 @@ Eight Kaggle notebooks, each with one job. Outputs pass between them as parquet,
 |---|---|---|---|---|
 | 01 | [`01_data_preprocessing`](../notebooks/01_data_preprocessing.ipynb) | `train/test/RUL_FD00x.txt` | per-split parquet, sensor and split metadata | notebook, `config/` |
 | 02 | [`02_feature_engineering`](../notebooks/02_feature_engineering.ipynb) | notebook 01 splits | 342-column feature parquet, `feature_columns.json` | notebook, `config/` |
-| 03 | centralised baselines (6 models x 4 datasets x 5 seeds) | feature parquet | `centralized_results.csv`, `threshold_summary.csv`, models | **notebook missing**; results and config present |
+| 03 | centralised baselines (6 models x 4 datasets x 5 seeds) | feature parquet | `centralized_results.csv`, `threshold_summary.csv`, models | notebook not included; results and config present |
 | 04 | [`04_distributed_ml_pipeline`](../notebooks/04_distributed_ml_pipeline.ipynb) | feature parquet | `distributed_results.csv`, node metadata | notebook, results |
 | 05 | [`05_robustness_testing`](../notebooks/05_robustness_testing.ipynb) | test features, notebook 03 models | `robustness_results.csv` | notebook, results |
 | 06 | [`06_cross_dataset_generalization`](../notebooks/06_cross_dataset_generalization.ipynb) | features, notebook 03 models | `cross_dataset_results.csv` | notebook, results |
