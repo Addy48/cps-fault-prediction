@@ -1,4 +1,4 @@
-**This is not the EEG stress paper.** EEG / SAM40 / IBCD 2026 lives in [EEG-Stress-Detection-](https://github.com/Addy48/EEG-Stress-Detection-).
+**This is not the EEG stress paper.** The EEG / SAM 40 work lives in [EEG-Stress-Detection-](https://github.com/Addy48/EEG-Stress-Detection-).
 
 # PBL-4 — Distributed CPS Fault Prediction Framework
 
