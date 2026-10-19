@@ -1,0 +1,36 @@
+{
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "models": [
+    "logistic_regression",
+    "random_forest",
+    "xgboost",
+    "lightgbm",
+    "catboost",
+    "svm"
+  ],
+  "seeds": [
+    42,
+    52,
+    62,
+    72,
+    82
+  ],
+  "perturbations": [
+    "gaussian_noise",
+    "missing_values",
+    "sensor_failure",
+    "corrupted_sensors"
+  ],
+  "levels": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "target": "failure_within_horizon",
+  "feature_count": 342
+}

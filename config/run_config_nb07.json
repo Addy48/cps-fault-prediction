@@ -1,0 +1,22 @@
+{
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "models": [
+    "random_forest",
+    "xgboost",
+    "lightgbm"
+  ],
+  "seeds": [
+    42,
+    52,
+    62,
+    72,
+    82
+  ],
+  "target": "rul",
+  "feature_count": 342
+}

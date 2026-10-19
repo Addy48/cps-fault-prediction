@@ -1,0 +1,74 @@
+{
+    "FD001": {
+        "train": {
+            "engines": 70,
+            "rows": 14507
+        },
+        "val_a": {
+            "engines": 9,
+            "rows": 1759
+        },
+        "val_b": {
+            "engines": 5,
+            "rows": 1007
+        },
+        "test": {
+            "engines": 16,
+            "rows": 3358
+        }
+    },
+    "FD002": {
+        "train": {
+            "engines": 182,
+            "rows": 38255
+        },
+        "val_a": {
+            "engines": 25,
+            "rows": 5002
+        },
+        "val_b": {
+            "engines": 13,
+            "rows": 2510
+        },
+        "test": {
+            "engines": 40,
+            "rows": 7992
+        }
+    },
+    "FD003": {
+        "train": {
+            "engines": 70,
+            "rows": 17187
+        },
+        "val_a": {
+            "engines": 9,
+            "rows": 2007
+        },
+        "val_b": {
+            "engines": 5,
+            "rows": 1245
+        },
+        "test": {
+            "engines": 16,
+            "rows": 4281
+        }
+    },
+    "FD004": {
+        "train": {
+            "engines": 174,
+            "rows": 42834
+        },
+        "val_a": {
+            "engines": 24,
+            "rows": 5974
+        },
+        "val_b": {
+            "engines": 12,
+            "rows": 3066
+        },
+        "test": {
+            "engines": 39,
+            "rows": 9375
+        }
+    }
+}

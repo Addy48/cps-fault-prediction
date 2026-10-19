@@ -1,0 +1,3 @@
+Architecture Family,Top Performing Model Variant,Global Mean F1
+Classical ML,logistic_regression,0.8776
+Deep Learning,GRU,0.8896

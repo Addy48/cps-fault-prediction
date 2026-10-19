@@ -1,0 +1,6 @@
+Model A,Model B,Winner,P-Value,Significance,Cohen's d
+LightGBM,XGBoost,LightGBM,0.125,ns,0.12744487654308392
+LightGBM,CatBoost,LightGBM,0.125,ns,0.14468797747646167
+LightGBM,Deep Learning,LightGBM,0.875,ns,0.21280532976728322
+XGBoost,Deep Learning,XGBoost,1.0,ns,0.10760410999092508
+Random Forest,LightGBM,LightGBM,0.125,ns,-0.6558106121522186

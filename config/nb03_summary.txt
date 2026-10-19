@@ -1,0 +1,26 @@
+
+NB03 Centralized ML Baselines
+
+Datasets: 4
+Models: 6
+Seeds: 5
+
+Total runs: 120
+
+Features: 342
+Target: failure_within_horizon
+
+Metrics:
+- Accuracy
+- Precision
+- Recall
+- F1
+- ROC-AUC
+- Training time
+- Inference time
+- RAM usage
+- Throughput
+- Latency
+- FLOPs
+- Parameter count
+- Energy estimation

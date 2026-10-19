@@ -1,0 +1,5 @@
+dataset,active_sensors,base_features,positive_rate
+FD001,15,18,0.1018
+FD002,15,18,0.1016
+FD003,15,18,0.085
+FD004,15,18,0.0854

@@ -1,0 +1,11 @@
+NB05 Robustness Testing
+
+Datasets: 4
+Models: 6
+Seeds: 5
+
+Perturbations: ['gaussian_noise', 'missing_values', 'sensor_failure', 'corrupted_sensors']
+
+Levels: [0.1, 0.2, 0.3]
+
+Total Runs: 1440

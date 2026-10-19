@@ -1,0 +1,26 @@
+{
+  "datasets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004"
+  ],
+  "seeds": [
+    42,
+    52,
+    62,
+    72,
+    82
+  ],
+  "target": "failure_within_horizon",
+  "node_count": 5,
+  "partition_methods": [
+    "engine_id_block",
+    "operational_clustering"
+  ],
+  "aggregations": [
+    "majority_vote",
+    "weighted_vote",
+    "confidence_vote"
+  ]
+}

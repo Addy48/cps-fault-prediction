@@ -1,0 +1,11 @@
+Model,Avg Inference Latency,Max Model Size
+GRU,,1.6312
+LSTM,,2.1527
+TCN,,0.5269
+Transformer,,0.4071
+catboost,0.0064,1.2374
+lightgbm,0.0087,1.0239
+logistic_regression,0.0073,0.0213
+random_forest,0.0509,328.6843
+svm,0.0268,0.0696
+xgboost,0.0062,3.8017

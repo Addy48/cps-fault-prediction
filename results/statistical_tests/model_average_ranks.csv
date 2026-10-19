@@ -1,0 +1,9 @@
+Model,Average Rank
+LightGBM,2.25
+Logistic Regression,2.5
+SVM,3.75
+XGBoost,4.0
+CatBoost,4.75
+Deep Learning,5.0
+Random Forest,6.75
+Other,7.0

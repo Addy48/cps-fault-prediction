@@ -1,0 +1,35 @@
+=====================================================
+          NON-PARAMETRIC STATISTICAL TESTS           
+=====================================================
+
+1. FRIEDMAN TEST (Global Differences)
+   - Null Hypothesis: All models perform equally.
+   - Chi-Square Statistic: 14.3333
+   - P-Value: 4.5561e-02
+   - Conclusion: Reject Null (Significant differences exist)
+
+2. PAIRWISE WILCOXON SIGNED-RANK TESTS & EFFECT SIZE
+   LightGBM vs XGBoost:
+      - P-Value: 1.2500e-01 (ns)
+      - Cohen's d: 0.1274 (Effect Size)
+      - Superior Model: LightGBM
+
+   LightGBM vs CatBoost:
+      - P-Value: 1.2500e-01 (ns)
+      - Cohen's d: 0.1447 (Effect Size)
+      - Superior Model: LightGBM
+
+   LightGBM vs Deep Learning:
+      - P-Value: 8.7500e-01 (ns)
+      - Cohen's d: 0.2128 (Effect Size)
+      - Superior Model: LightGBM
+
+   XGBoost vs Deep Learning:
+      - P-Value: 1.0000e+00 (ns)
+      - Cohen's d: 0.1076 (Effect Size)
+      - Superior Model: XGBoost
+
+   Random Forest vs LightGBM:
+      - P-Value: 1.2500e-01 (ns)
+      - Cohen's d: -0.6558 (Effect Size)
+      - Superior Model: LightGBM

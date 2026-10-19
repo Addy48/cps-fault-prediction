@@ -1,0 +1,9 @@
+
+NB04 Distributed ML Pipeline
+
+Datasets: 4
+Partition methods: 2
+Aggregations: 3
+Seeds: 5
+
+Total runs: 120

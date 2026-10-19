@@ -1,0 +1,4 @@
+Regression Model,FD001 (RMSE),FD002 (RMSE),FD003 (RMSE),FD004 (RMSE)
+lightgbm,34.465,48.524,59.202,74.944
+random_forest,35.815,46.933,56.809,73.907
+xgboost,36.246,50.66,63.415,76.39

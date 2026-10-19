@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Distributed fault prediction for cyber-physical systems on NASA C-MAPSS: code and saved results"
+message: "If you use this code or the saved results, please cite this repository."
+type: software
+authors:
+  - family-names: Upadhyay
+    given-names: Aaditya
+  - family-names: Jadhav
+    given-names: Akshay
+    affiliation: "School of Computer Science and Engineering, Manipal University Jaipur"
+repository-code: "https://github.com/Addy48/cps-fault-prediction"
+abstract: >-
+  Six classical models and a five-node distributed LightGBM system evaluated on NASA C-MAPSS
+  FD001 to FD004: classification, robustness, cross-dataset transfer, RUL regression and
+  deployment cost. Companion material for a manuscript in preparation.
+keywords:
+  - predictive maintenance
+  - C-MAPSS
+  - cyber-physical systems
+  - distributed learning

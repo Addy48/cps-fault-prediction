@@ -1,0 +1,5 @@
+Dataset,Engines (Train),Op Conditions,Fault Modes,Train Samples,Test Samples
+FD001,N/A,1,1,N/A,N/A
+FD002,N/A,6,1,N/A,N/A
+FD003,N/A,1,2,N/A,N/A
+FD004,N/A,6,2,N/A,N/A

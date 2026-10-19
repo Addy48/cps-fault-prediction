@@ -1,0 +1,18 @@
+{
+    "rolling_windows": [
+        5,
+        10,
+        20
+    ],
+    "engineered_features": [
+        "mean",
+        "std",
+        "min",
+        "max",
+        "slope",
+        "ema"
+    ],
+    "base_features": 18,
+    "active_sensors": 15,
+    "total_features": 342
+}

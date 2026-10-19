@@ -1,0 +1,26 @@
+[
+    {
+        "dataset": "FD001",
+        "active_sensors": 15,
+        "base_features": 18,
+        "positive_rate": 0.1018
+    },
+    {
+        "dataset": "FD002",
+        "active_sensors": 15,
+        "base_features": 18,
+        "positive_rate": 0.1016
+    },
+    {
+        "dataset": "FD003",
+        "active_sensors": 15,
+        "base_features": 18,
+        "positive_rate": 0.085
+    },
+    {
+        "dataset": "FD004",
+        "active_sensors": 15,
+        "base_features": 18,
+        "positive_rate": 0.0854
+    }
+]
